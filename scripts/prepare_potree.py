@@ -27,7 +27,7 @@ cd /outside
     -o {potree_dir} \
     --overwrite \
     --generate-page paperworld \
-    --title "Scientic Publication Cloud" \
+    --title "Scientific Publication Cloud" \
     --description "Visualization after topic extraction and dimensionality reduction"
         """
 
