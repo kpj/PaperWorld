@@ -21,6 +21,12 @@ def main(fname_in, fname_out):
     # plt.scatter(embedding[:, 0], embedding[:, 1])
     # plt.show()
 
+    # annotate with color
+    embedding = np.c_[
+        embedding,
+        np.random.randint(0, 255, size=(embedding.shape[0], 3))
+    ]
+
     # save result
     np.savetxt(fname_out, embedding, fmt='%f')
 
