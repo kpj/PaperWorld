@@ -14,7 +14,7 @@ $ snakemake -pr
 
 This will:
 
-* Download PMC manuscripts
+* Download scientific manuscripts (e.g. PMC)
 * Analyze their topics (e.g. using tf-idf)
 * Project this high-dimensional space to something more manageable (e.g. using umap)
 * Visualize the result interactively in the browser (e.g. using potree)
